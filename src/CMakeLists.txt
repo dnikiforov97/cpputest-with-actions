@@ -1,5 +1,5 @@
 # Define the average library with its source file
-add_library(source_lib sum/sum.c subtract/subtract.c)
+add_library(source_lib sum/sum.c subtract/subtract.c multiple/multiple.c divide/divide.c)
 
 # Set the include directory to src/ (e.g., project/src/)
 # PUBLIC means any target linking to average_lib inherits this include path
